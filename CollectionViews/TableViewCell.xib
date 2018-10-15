@@ -19,15 +19,16 @@
                     <rect key="frame" x="8" y="0.0" width="660" height="196"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ij-je-0m1">
-                            <rect key="frame" x="0.0" y="88" width="464" height="20.5"/>
+                            <rect key="frame" x="0.0" y="88" width="620" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LvM-d3-9uq">
-                            <rect key="frame" x="464" y="0.0" width="196" height="196"/>
+                            <rect key="frame" x="620" y="78" width="40" height="40"/>
                             <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
+                                <constraint firstAttribute="width" constant="40" id="OYa-Qi-tEC"/>
                                 <constraint firstAttribute="width" secondItem="LvM-d3-9uq" secondAttribute="height" multiplier="1:1" id="YFi-OS-5mB"/>
                             </constraints>
                         </view>

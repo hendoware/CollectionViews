@@ -28,6 +28,18 @@ class TableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let label = UILabel()
+        label.textAlignment = .center
+        label.backgroundColor = .lightGray
+        label.text = ColorHelper.shared.keyFor(indexPath: IndexPath(row: 0, section: section))
+        return label
+    }
+    
+    override func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+        return ColorHelper.shared.modelKeys
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         tableView.reloadData()

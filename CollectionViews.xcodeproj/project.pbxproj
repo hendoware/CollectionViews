@@ -18,6 +18,8 @@
 		7BF2226D2174F6E400337519 /* CrayonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2226C2174F6E400337519 /* CrayonModel.swift */; };
 		7BF2226F2174F8C200337519 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BF2226E2174F8C200337519 /* CollectionViewCell.xib */; };
 		7BF222712174F8D800337519 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BF222702174F8D800337519 /* TableViewCell.xib */; };
+		7BF222732175095200337519 /* CollectionReusableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BF222722175095200337519 /* CollectionReusableHeaderView.xib */; };
+		7BF222752175096700337519 /* CollectionReusableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF222742175096700337519 /* CollectionReusableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		7BF2226C2174F6E400337519 /* CrayonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrayonModel.swift; sourceTree = "<group>"; };
 		7BF2226E2174F8C200337519 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		7BF222702174F8D800337519 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		7BF222722175095200337519 /* CollectionReusableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionReusableHeaderView.xib; sourceTree = "<group>"; };
+		7BF222742175096700337519 /* CollectionReusableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				7BF222702174F8D800337519 /* TableViewCell.xib */,
 				7BF222662174F56400337519 /* CollectionViewController.swift */,
 				7BF2226E2174F8C200337519 /* CollectionViewCell.xib */,
+				7BF222722175095200337519 /* CollectionReusableHeaderView.xib */,
+				7BF222742175096700337519 /* CollectionReusableHeaderView.swift */,
 				7BF2226A2174F5BB00337519 /* CollectionViewCell.swift */,
 				7BF2226C2174F6E400337519 /* CrayonModel.swift */,
 				7BF222592174F3C300337519 /* Assets.xcassets */,
@@ -140,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF222732175095200337519 /* CollectionReusableHeaderView.xib in Resources */,
 				7BF2225D2174F3C300337519 /* LaunchScreen.storyboard in Resources */,
 				7BF222712174F8D800337519 /* TableViewCell.xib in Resources */,
 				7BF2225A2174F3C300337519 /* Assets.xcassets in Resources */,
@@ -157,6 +164,7 @@
 			files = (
 				7BF2226B2174F5BB00337519 /* CollectionViewCell.swift in Sources */,
 				7BF2226D2174F6E400337519 /* CrayonModel.swift in Sources */,
+				7BF222752175096700337519 /* CollectionReusableHeaderView.swift in Sources */,
 				7BF222672174F56400337519 /* CollectionViewController.swift in Sources */,
 				7BF222692174F5B300337519 /* TableViewCell.swift in Sources */,
 				7BF222532174F3C100337519 /* AppDelegate.swift in Sources */,
